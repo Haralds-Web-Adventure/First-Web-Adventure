@@ -30,24 +30,21 @@ nav {
 .link-container {
     margin-left: 10%;
     border-bottom: 2px solid transparent;
-    transition: border-bottom 750ms;
 }
-
-.link-container:hover { 
-    border-bottom: 2px solid #F06F0A;
-}
-
 
 .link-container a {
     text-decoration: none;
     color: #8a8a8a;
     font-size: 1.5em;
+    border-bottom: 2px solid transparent;
     transition: color 750ms;
+    transition: border-bottom 750ms;
 
 }
 
 .link-container a:hover {
     color: #F06F0A;
+    border-bottom: 2px solid #F06F0A;
 }
 
 #top-right {
