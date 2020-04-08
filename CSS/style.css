@@ -282,7 +282,9 @@ main {
 
 @media only screen and (max-width:655px){
 
-
+.main-home {
+    grid-template-rows: 0.3fr 1fr;
+}
 
 #top-right {
     font-size: 1.5em;
@@ -296,5 +298,13 @@ main {
     font-size: 1em;
 }
 
+.iframe-container{
 
+    height: 50%;
+}
+
+.iframe-container iframe{
+    width: 100%;
+
+}
 }
